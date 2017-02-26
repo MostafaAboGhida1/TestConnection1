@@ -17,9 +17,13 @@ public class TestConnection1 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("TTTTTTTTTTT");
+        printValue();
     }
-    public void printValue(){
+    public static void printValue(){
         System.out.println("yyyyyyyyyy");
+    }
+    public void printValue2(){
+        System.out.println("xxxxxxxxxxxx");
     }
     
 }
